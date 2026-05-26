@@ -43,3 +43,16 @@ paise número de jugadores de la base, número de goles en función de los goles
 * Evidencia de la base de datos sqlite
 * Evidencia de la base de datos mariaDB o mySQL
 * Evidencia del fronted funcionando
+
+# Guia para la ejecucion 
+Se Activa el entorno virtual:
+   python -m venv .venv
+   .venv\Scripts\activate
+
+Se instalan las dependencias
+ pip install -r requirements.txt
+
+Se ejecuta clases.py
+Se ejecuta ingreso_datos.py
+
+Se ejecuta streamlit run app.py
